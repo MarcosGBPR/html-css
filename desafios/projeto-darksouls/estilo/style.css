@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'darksouls';
-    src: url('../fontes/OptimusPrinceps.ttf') format('ttf');
+    src: url('../fontes/OptimusPrinceps.ttf') format('truetype');
     font-weight: normal;
 }
 
@@ -39,8 +39,27 @@ header > h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-variant: small-caps;
-    font-family: var(--fonte2);
-    font-size: 5vw;
+    font-family: var(--fonte3);
+    font-size: 10vw;
+    font-weight: bold;
     color: black;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.568);
+}
+
+main {
+    background-color: black;
+    color: white;
+    margin-right: 7%;
+    margin-left: 7%;
+    padding: 20px 0px 20px 0px;
+}
+
+#ds1 {
+    background-image: url(../imagens/blackbg.jpg);
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-family: var(--font2);
+    font-size: 5vh;
 }
