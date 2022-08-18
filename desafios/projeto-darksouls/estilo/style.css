@@ -45,7 +45,7 @@ header > h1 {
 }
 
 main {
-    background-color: black;
+    background-color: rgb(19, 19, 19);
     color: white;
     margin-right: 7%;
     margin-left: 7%;
@@ -53,7 +53,7 @@ main {
 }
 
 #ds1 {
-    background-image: url(../imagens/blackbg.jpg);
+    background-color: black;
     text-align: center;
     border-radius: 5px;
     padding-top: 8px;
