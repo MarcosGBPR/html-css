@@ -1,1 +1,46 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'darksouls';
+    src: url('../fontes/OptimusPrinceps.ttf') format('ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'dsbold';
+    src: url('../fontes/OptimusPrincepsSemiBold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'darksouls', sans-serif;
+    --font3: 'dsbold', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: var(--fonte2);
+}
+
+header {
+    background-color: black;
+    background-image: url(../imagens/redbg.jpg);
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 5vw;
+    color: black;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.568);
+}
