@@ -35,7 +35,7 @@ body {
 }
 
 main {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(14, 14, 14);
     color: white;
     margin-right: 7%;
     margin-left: 7%;
@@ -61,13 +61,12 @@ p {
 }
 
 div {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #ds1 {
     background-color: black;
     text-align: center;
-
     padding-top: 8px;
     padding-bottom: 5px;
     font-family: var(--font2);
@@ -85,79 +84,80 @@ img.darksouls {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2vh;
     width: 50%;
+}
+
+div.bgform {
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 10px black;
+    padding: 5vh;
+    height: 50vh;
 }
 
 div#solaire {
     background-image: url(../imagens/solaire.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 1px 1px 10px black;
-    padding: 5vh;
-    height: 50vh;
 }
 
 div#artorias {
     background-image: url(../imagens/artorias.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 1px 1px 10px black;
-    padding: 5vh;
-    height: 50vh;
 }
 
 div#kalameet {
     background-image: url(../imagens/kalameet.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 1px 1px 10px black;
-    padding: 5vh;
-    height: 50vh;
 }
 
 div#andre {
     background-image: url(../imagens/andre.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 1px 1px 10px black;
-    padding: 5vh;
-    height: 50vh;
 }
 
 div#sss {
     background-image: url(../imagens/sss.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 1px 1px 10px black;
-    padding: 5vh;
-    height: 50vh;
 }
 
 div#gsart {
     background-image: url(../imagens/gsa.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 1px 1px 10px black;
-    padding: 5vh;
-    height: 50vh;
 }
 
 div#machete {
     background-image: url(../imagens/capra.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 1px 1px 10px black;
-    padding: 5vh;
-    height: 50vh;
 }
 
 div#uchigatana {
     background-image: url(../imagens/uchi.jpeg);
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 1px 1px 10px black;
-    padding: 5vh;
-    height: 50vh;
+}
+
+div#grave {
+    background-image: url(../imagens/grave.jpg);
+}
+
+div#bkgaxe {
+    background-image: url(../imagens/bkgaxe.jpg);
+}
+
+div#demon {
+    background-image: url(../imagens/demon.jpg);
+}
+
+div#dragonspear {
+    background-image: url(../imagens/dragonspear.jpg);
+}
+
+div#lifehunt {
+    background-image: url(../imagens/lifehunt.jpg);
+}
+
+div#lucatiel {
+    background-image: url(../imagens/lucatiel.jpg);
+}
+
+div#ancient {
+    background-image: url(../imagens/ancient.jpg);
+}
+
+div#glass {
+    background-image: url(../imagens/glass.jpg);
 }
 
 #ds2 {
